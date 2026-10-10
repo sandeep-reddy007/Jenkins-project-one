@@ -1,9 +1,9 @@
 FROM python:3.12-slim
 
-WORKDIR /app
+WORKDIR /test
 
 COPY . .
 
 EXPOSE 5000
 
-CMD ["python", "app.py"]
+CMD ["python", "test.py"]
