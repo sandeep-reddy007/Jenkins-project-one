@@ -7,4 +7,4 @@ def home():
     return "Hello Guys! This is my Python web application running through Jenkins and Docker."
 
 if __name__ == "__main__":
-    app.run(host="18.60.62.57", port=5000)
+    app.run(host="0.0.0.0", port=5000)
