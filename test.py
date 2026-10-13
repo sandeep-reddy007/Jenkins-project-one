@@ -9,4 +9,4 @@ def home():
               Having 5 years of experiance in both applicaton development and AWS deops"""
 
 if __name__ == "__main__":
-    app.run(host="16.112.26.118", port=8000)
+    app.run(host="0.0.0.0", port=8000)
